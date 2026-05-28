@@ -1,0 +1,32 @@
+aid: funtranslations
+name: FunTranslations
+description: "Translate Text into funny languages"
+url: https://api.funtranslations.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Games & Comics"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Games And Comics
+  - Public APIs
+apis:
+  - name: FunTranslations
+    description: "Translate Text into funny languages"
+    humanURL: https://api.funtranslations.com/
+    baseURL: https://api.funtranslations.com/
+    tags:
+      - Games And Comics
+    properties:
+      - type: Documentation
+        url: https://api.funtranslations.com/
+common:
+  - type: Website
+    url: https://api.funtranslations.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
