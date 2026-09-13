@@ -1,0 +1,23 @@
+generated: '2026-09-11'
+method: probed
+source: https://funtranslations.com/ai/mcp/translate
+status: published
+server:
+  name: funtranslations
+  transport: http
+  url: https://funtranslations.com/ai/mcp/translate
+deployment:
+  mode: remote
+  endpoint: https://funtranslations.com/ai/mcp/translate
+  verified: probed
+  probe: live
+  checked: '2026-09-11'
+  source: docs-check 2026-09-12 (endpoint found in the provider's own documentation, then probed)
+tools_count: 2
+tools:
+- name: list-all-translations-tool
+  description: ''
+- name: translate-tool
+  description: ''
+tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
+authorship: provider
