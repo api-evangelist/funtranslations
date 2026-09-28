@@ -16,8 +16,10 @@ deployment:
 tools_count: 2
 tools:
 - name: list-all-translations-tool
-  description: ''
+  description: List all the translators available in the system. Result is a paged structured response.
 - name: translate-tool
-  description: ''
+  description: Translate the given text using the translator specified and return the result.
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28
