@@ -33,13 +33,13 @@ x-category: "Games & Comics"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Games And Comics
   - Public APIs
+  - Translation
+  - Entertainment
 apis:
   - name: FunTranslations
     description: "Translate Text into funny languages"
     humanURL: https://api.funtranslations.com/
-    baseURL: https://api.funtranslations.com/
     tags:
       - Games And Comics
     properties:
@@ -55,3 +55,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Games And Comics
